@@ -16,9 +16,7 @@ Like this:
 * [Refactor the HTML into Partials](https://github.com/andrerferrer/card-flip-demo/commit/7732f4f2040aa06ad19240d70a8f1f7c6e2912b1)
 * [Refactor the CSS into components](https://github.com/andrerferrer/card-flip-demo/commit/7983b09e0da5fee083186a308bfa63df39f91173)
 * [Refactor the JS into components](https://github.com/andrerferrer/card-flip-demo/commit/9b37719b153be248c8a07958acb059d77440c547)
-
-**PENDING**
-* [Refactor the JS with stimulus JS]()
+* [Refactor the JS with stimulus JS](https://github.com/andrerferrer/card-flip-demo/commit/0be09041bf564242a19658e6e9689e5ae5d8d1f8)
 
 Good Luck and Have Fun
 

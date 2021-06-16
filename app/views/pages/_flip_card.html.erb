@@ -1,16 +1,18 @@
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="<%= image_url %>" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1><%= name %></h1>
-      <p>
-        <%= profession %>
-      </p>
-      <p>
-        <%= description %>
-      </p>
+<div class="flip-card-wrapper" data-controller='flip-card'>
+  <div class="flip-card" data-action='click->flip-card#flip'>
+    <div class="flip-card-inner" data-flip-card-target='flipCard'>
+      <div class="flip-card-front">
+        <img src="<%= image_url %>" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1><%= name %></h1>
+        <p>
+          <%= profession %>
+        </p>
+        <p>
+          <%= description %>
+        </p>
+      </div>
     </div>
   </div>
 </div>

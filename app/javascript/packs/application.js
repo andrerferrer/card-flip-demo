@@ -11,3 +11,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+import { makeCardsClickable } from '../components/make_cards_clickable';
+
+document.addEventListener("turbolinks:load", () => {
+  makeCardsClickable();
+})

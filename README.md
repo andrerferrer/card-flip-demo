@@ -1,24 +1,9 @@
-# README
+# GOAL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo to show-case how to implement a flippable card.
 
-Things you may want to cover:
+[You can also check my other demos](https://github.com/andrerferrer/dedemos/blob/master/README.md#ded%C3%A9mos).
 
-* Ruby version
+[You can download this repo](clone_this_repo.md) and see it working in `localhost:3000/restaurants/1`.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Good Luck and Have Fun

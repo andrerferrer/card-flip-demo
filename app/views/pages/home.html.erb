@@ -1,2 +1,73 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="http://1.bp.blogspot.com/-zhQxlt5aYaE/TbovVvELx4I/AAAAAAAAAZk/WjVs9s1sc38/s1600/pirates-of-the-caribbean-dead-mans-.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Elizabeth Swann</h1>
+      <p>Port Royal Governor</p>
+      <p>Killed Jack Sparrow</p>
+    </div>
+  </div>
+</div>
+
+<%# THE CSS %>
+<style>
+  .flip-card {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; /* 3D effect */
+  }
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card .flip-card-inner.flipped {
+    transform: rotateY(180deg);
+  }
+
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  /* Style the front side of the card */
+  .flip-card-front {
+  }
+
+  /* Style the back side of the card */
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+</style>
+
+<%# THE JS %>
+<script>
+
+  const flipCard = (event) => {
+    const card = event.currentTarget;
+    console.log(card)
+    card.classList.toggle('flipped');
+  };
+
+  const cards = document.querySelectorAll('.flip-card > .flip-card-inner');
+
+  cards.forEach((card) => {
+    card.addEventListener('click', flipCard);
+  });
+
+</script>

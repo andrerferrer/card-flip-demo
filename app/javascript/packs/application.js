@@ -17,3 +17,5 @@ import { makeCardsClickable } from '../components/make_cards_clickable';
 document.addEventListener("turbolinks:load", () => {
   makeCardsClickable();
 })
+
+import "controllers"

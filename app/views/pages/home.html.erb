@@ -1,28 +1,14 @@
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="http://1.bp.blogspot.com/-zhQxlt5aYaE/TbovVvELx4I/AAAAAAAAAZk/WjVs9s1sc38/s1600/pirates-of-the-caribbean-dead-mans-.jpg" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>Elizabeth Swann</h1>
-      <p>Port Royal Governor</p>
-      <p>Killed Jack Sparrow</p>
-    </div>
-  </div>
-</div>
+<%= render 'flip_card', 
+           image_url: 'http://1.bp.blogspot.com/-zhQxlt5aYaE/TbovVvELx4I/AAAAAAAAAZk/WjVs9s1sc38/s1600/pirates-of-the-caribbean-dead-mans-.jpg',
+           name: "Elizabeth Swann",
+           profession: "Port Royal Governor",
+           description: "Killed Jack Sparrow" %>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/01/jack-sparrow.jpg" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>Jack Sparrow</h1>
-      <p>Pirate</p>
-      <p>The worst pirate, but you have heard of him</p>
-    </div>
-  </div>
-</div>
+<%= render 'flip_card', 
+           image_url: 'https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/01/jack-sparrow.jpg',
+           name: "Jack Sparrow",
+           profession: "Pirate",
+           description: "The worst pirate, but you have heard of him" %>
 
 <%# THE CSS %>
 <style>

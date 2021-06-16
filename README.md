@@ -17,3 +17,8 @@ This is a demo to show-case how to implement a flippable card.
 * [Refactor the JS with stimulus JS]()
 
 Good Luck and Have Fun
+
+**Sources:**
+* [This codepen ](https://codepen.io/wochap/pen/BzvOZp)
+* [This tutorial](https://jefferson-cuartas.medium.com/how-to-create-a-flip-card-effect-using-javascript-767dd945210c)
+* [This tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp)
